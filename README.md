@@ -6,6 +6,12 @@ Cursor Agent Skill：拆包虚幻引擎 4/5 安卓游戏，并找回 IoStore 的
 
 本 Skill 设置了 `disable-model-invocation: true`。需要显式点名（例如 `@unpack-ue-mobile-game`），代理才会加载 `SKILL.md`。
 
+## 免责声明
+
+本仓库仅供学习与技术交流，请只在你拥有或已获授权分析的游戏上使用。
+
+若其中内容侵犯了你的合法权益，请通过 GitHub Issues 或站内联系告知。我在收到通知后会尽快核实，并第一时间删除相关内容。
+
 ## 目录
 
 | 路径 | 作用 |
@@ -96,6 +102,12 @@ Cursor Agent Skill for unpacking Unreal Engine 4/5 Android games and recovering 
 The workflow was validated end-to-end on a UE 4.27 Android title running in an Android emulator. The hard part is almost always the AES key; the skill tries the cheaper avenues first.
 
 This skill has `disable-model-invocation: true`. Name it explicitly (for example `@unpack-ue-mobile-game`) so the agent loads `SKILL.md`.
+
+## Disclaimer
+
+This repository is for learning and technical discussion only. Use it solely on games you own or are authorized to analyze.
+
+If anything here infringes your rights, please tell me through a GitHub issue or a message on GitHub. Once notified, I will look into it promptly and remove the material right away.
 
 ## Contents
 
